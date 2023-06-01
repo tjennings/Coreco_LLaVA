@@ -6,7 +6,22 @@ This is a total hack to use LLaVA to caption large image datasets To use it you 
 * Run the following command: 
 
 ```
-python3 -m llava.eval.run_llava --path /mnt/van_gogh/model_training/deltron/image_staging/download
+python3 -m llava.eval.run_llava --path /path/to/images --model_path /path/to/model
 ```
 
-* resize is supported but optional.  
+Full options: 
+
+```
+usage: described [-h] --path PATH [--overwrite] [--model_name MODEL_NAME] [--prefix PREFIX] [--suffix SUFFIX] [--resize RESIZE]
+
+options:
+  -h, --help            show this help message and exit
+  --path PATH           Path to images to be captioned
+  --overwrite           Overwrite existing captions
+  --model_name MODEL_NAME
+                        a string applied at the beginning of each caption
+  --prefix PREFIX       a string applied at the beginning of each caption
+  --suffix SUFFIX       a string applied at the end of each caption
+  --resize RESIZE       additionally, resize and save the image where the longest side is the provided maximum
+
+```
