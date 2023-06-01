@@ -19,7 +19,7 @@ options:
   --path PATH           Path to images to be captioned
   --overwrite           Overwrite existing captions
   --model_name MODEL_NAME
-                        a string applied at the beginning of each caption
+                        path to the model
   --prefix PREFIX       a string applied at the beginning of each caption
   --suffix SUFFIX       a string applied at the end of each caption
   --resize RESIZE       additionally, resize and save the image where the longest side is the provided maximum
