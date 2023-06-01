@@ -2,7 +2,7 @@
 
 This is a total hack to use LLaVA to caption large image datasets To use it you must: 
 
-* Follow the LLaVA installation instructions to set up this code base, acquire the llama model, and merge their delta. 
+* Follow the [LLaVA](https://github.com/haotian-liu/LLaVA) installation instructions to set up this code base, acquire the llama model, and merge their delta. 
 * Run the following command: 
 
 ```
