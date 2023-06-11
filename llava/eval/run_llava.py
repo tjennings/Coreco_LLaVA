@@ -22,7 +22,7 @@ import os
 import json5
 import torch
 from PIL import Image
-from lavis.models import load_model_and_preprocess
+# from lavis.models import load_model_and_preprocess
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 from typing import List, Any, Tuple, Union, Dict
